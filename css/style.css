@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #cc275b;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 8px solid #64142d;
+}
+
+/* Grid de animais */
+.conteiner{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.products-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url('../imagens/gatinho2.jpg');
+}
+#img-3{
+    background-image: url('../imagens/gatinho3.jpg');
+}
+#img-4{
+    background-image: url('../imagens/gatinho4.jpg');
+}
+#img-5{
+    background-image: url('../imagens/gatinho5.jpg');
+}
+#img-6{
+    background-image: url('../imagens/gatinho6.jpg');
+}
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+    border-left: 5px solid #0f642f;
+    padding-left: 5px;
+}
+.card p {
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none; 
+    background-color: #d82961e7;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 15px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #4ec57c ;
+}
+
+/* Footer */
+footer{
+    background-color: #cc275b;
+    color: #FFF;
+    border-top: 3px solid #2b6e45;
+    text-align: center;
+    padding: 80px;
+}
